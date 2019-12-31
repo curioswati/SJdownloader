@@ -19,12 +19,12 @@ Windows users first need to check their system's path variable set to contain th
 ## Dependencies:
 
 * wxpython:  
-  [for windows] (http://www.wxpython.org/download.php#msw)  
+  [for windows](http://www.wxpython.org/download.php#msw)  
   for linux:  
 	
 		:~$ sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev libgtk2.0-dev  
 
-* [pyinstaller] (https://pypi.python.org/pypi/PyInstaller/2.1)  
+* [pyinstaller](https://pypi.python.org/pypi/PyInstaller/2.1)  
   Or else:  
 
 		:~$ pip install pyinstaller  
@@ -63,7 +63,7 @@ now from command line, run:
 you will find the exe in dist/SJdownloader/ under your current directory.   
 Then move the SJdownloader to C:\Program Files\  
 After that you can use the application in your system.  
-For more info visit [here] (https://github.com/curioswati-zz/SJdownloader/wiki/Build-instructions).
+For more info visit [here](https://github.com/curioswati-zz/SJdownloader/wiki/Build-instructions).
 
 ### Linux:
 Get the source by:  
@@ -130,7 +130,7 @@ Your application is now ready to be used.
 
 External packages used:
 ----------------------
-* [wxpython] (http://wxpython.org/Phoenix/docs/html/main.html).  
+* [wxpython](http://wxpython.org/Phoenix/docs/html/main.html).  
 
-Rest and required information is provided in the script itself or you can visit the [wiki] (https://github.com/curioswati-zz/SJdownloader/wiki/).
-For updates visit the [project page] (http://curioswati-zz.github.io/SJdownloader/).
+Rest and required information is provided in the script itself or you can visit the [wiki](https://github.com/curioswati-zz/SJdownloader/wiki/).
+For updates visit the [project page](http://curioswati-zz.github.io/SJdownloader/).
