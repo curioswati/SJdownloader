@@ -12,15 +12,19 @@ I hope, it will be of help to all.
 
 The project is under work.
 Until now, it has individual python scripts for various tasks. The SJdownloader script in the downloader directory is the main script to run.  
-It can be run from command-line by:  
-	<code>python SJdownloader.py </code>  
-Windows users first need to check their system's path variable set to contain the path to python.exe.  
+
+It can be run from command-line by:
+
+    python SJdownloader.py
+
+_NOTE: Windows users first need to check their system's path variable set to contain the path to `python.exe`._
 
 ## Dependencies:
 
 * wxpython:  
-  [for windows](http://www.wxpython.org/download.php#msw)  
-  for linux:  
+  * [for windows](http://www.wxpython.org/download.php#msw)
+  
+  * for linux:  
 	
 		:~$ sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev libgtk2.0-dev  
 
@@ -35,7 +39,7 @@ Windows users first need to check their system's path variable set to contain th
 Get the source by:  
   1. Clone the repository.  
 
-		:~$ git clone https://github.com/curioswati-zz/SJdownloader.git  
+		 :~$ git clone https://github.com/curioswati-zz/SJdownloader.git  
 
 You get a source directory named sjdownloader and some text files.  
 Let's start the process.  
@@ -43,7 +47,7 @@ Let's start the process.
 	>cd /path/to/source
 	>pyi-makespec --noconsole --icon=sjdownloader/Icons/Logo.ico --onedir sjdownloader/SJdownloader.py  
 		
-modify the generated SJdownloader.spec file, add the following after the call to Analyse, on next line:  
+modify the generated `SJdownloader.spec` file, add the following after the call to Analyse, on next line:  
 
     images = Tree('sjdownloader/Icons', prefix='Icons')
     configs = Tree('sjdownloader/config', prefix='config')  
@@ -60,8 +64,8 @@ now from command line, run:
 
     pyinstaller SJdownloader.spec  
     
-you will find the exe in dist/SJdownloader/ under your current directory.   
-Then move the SJdownloader to C:\Program Files\  
+you will find the exe in `dist/SJdownloader/` under your current directory.   
+Then move the SJdownloader to `C:\Program Files\`  
 After that you can use the application in your system.  
 For more info visit [here](https://github.com/curioswati-zz/SJdownloader/wiki/Build-instructions).
 
@@ -70,13 +74,13 @@ Get the source by:
         
         git clone https://github.com/curioswati-zz/SJdownloader.git  
 
-You get a source directory named sjdownloader and some text files.  
+You get a source directory named `sjdownloader` and some text files.  
 Now,  
 
     :~$ cd /path/to/source  
     :~$ pyi-makespec --noconsole --icon=sjdownloader/Icons/Logo.ico --onedir   
 
-You will get a file named SJdownloader.spec in the current directory.  
+You will get a file named `SJdownloader.spec` in the current directory.  
 Now modify the spec file, add the following after the call to Analyse, it should look like:  
 
         # -*- mode: python -*-  
@@ -106,7 +110,7 @@ After this you should run the following command from command prompt:
 
     :~$ pyinstaller SJdownloader.spec  
 
-you will find the executable SJdownloader in dist/SJdownloader/ under your current directory. You wil get a build/ directory also, it is better to remove that.
+you will find the executable `SJdownloader` in `dist/SJdownloader/` under your current directory. You wil get a `build/` directory also, it is better to remove that.
  
 you can run it from terminal by typing:  
         
@@ -121,8 +125,8 @@ You can use the application in the above mentioned manner, but it will be better
         :-$ chmod +x sjdownloader
         :-$ sudo mv sjdownloader /usr/bin/
 
-Now you can run the application by command <code>sjdownloader</code>.
-Create a file named sjdownloader.desktop and run the command:  
+Now you can run the application by command `sjdownloader`.
+Create a file named `sjdownloader.desktop` and run the command:  
 
         sudo mv sjdownloader.desktop  /usr/share/applications/
 
