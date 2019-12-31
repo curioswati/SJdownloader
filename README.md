@@ -35,7 +35,7 @@ Windows users first need to check their system's path variable set to contain th
 Get the source by:  
   1. Clone the repository.  
 
-		:~$ git clone https://github.com/swati-jaiswal/SJdownloader.git  
+		:~$ git clone https://github.com/curioswati-zz/SJdownloader.git  
 
 You get a source directory named sjdownloader and some text files.  
 Let's start the process.  
@@ -63,12 +63,12 @@ now from command line, run:
 you will find the exe in dist/SJdownloader/ under your current directory.   
 Then move the SJdownloader to C:\Program Files\  
 After that you can use the application in your system.  
-For more info visit [here] (https://github.com/swati-jaiswal/SJdownloader/wiki/Build-instructions).
+For more info visit [here] (https://github.com/curioswati-zz/SJdownloader/wiki/Build-instructions).
 
 ### Linux:
 Get the source by:  
         
-        git clone https://github.com/swati-jaiswal/SJdownloader.git  
+        git clone https://github.com/curioswati-zz/SJdownloader.git  
 
 You get a source directory named sjdownloader and some text files.  
 Now,  
@@ -132,5 +132,5 @@ External packages used:
 ----------------------
 * [wxpython] (http://wxpython.org/Phoenix/docs/html/main.html).  
 
-Rest and required information is provided in the script itself or you can visit the [wiki] (https://github.com/swati-jaiswal/SJdownloader/wiki/).
-For updates visit the [project page] (http://swati-jaiswal.github.io/SJdownloader/).
+Rest and required information is provided in the script itself or you can visit the [wiki] (https://github.com/curioswati-zz/SJdownloader/wiki/).
+For updates visit the [project page] (http://curioswati-zz.github.io/SJdownloader/).
